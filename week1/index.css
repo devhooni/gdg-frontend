@@ -1,0 +1,27 @@
+.container {
+  width: 40rem;
+  border: 2px rgb(0, 0, 0) solid;
+  margin-top: 1rem;
+  padding: 1rem;
+}
+
+.container:hover {
+    animation: c;
+}
+
+@-webkit-keyframes container-hover {
+  0% {
+    width: 40rem;
+    border: 2px rgb(0, 0, 0) solid;
+  }
+  33% {
+    width: 40rem;
+    border: 2px rgb(0, 0, 0) solid;
+    transform: rotateX("-30deg");
+  }
+  100% {
+    width: 40rem;
+    border: 2px rgb(0, 0, 0) solid;
+    transform: rotateX("30deg");
+  }
+}
